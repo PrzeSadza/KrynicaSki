@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./Menu";
+import Header from "./Header";
 import Footer from "./Footer";
 
 interface Props {
@@ -17,7 +17,7 @@ interface Props {
 const Layout = (props: Props) => {
   return (
     <>
-      <Menu />
+      <Header />
       {props.children}
       <Footer />
     </>
